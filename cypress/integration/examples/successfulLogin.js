@@ -18,7 +18,7 @@ cy.wait(2000)
 cy.contains('Phone').type('otueffiwatt@icloud.com')
 
 //Input Twitter password
-cy.contains('Password').type('Kokodaddy#15')
+cy.contains('Password').type('**********')
 
 //Click login button
 cy.contains('Login').click()
