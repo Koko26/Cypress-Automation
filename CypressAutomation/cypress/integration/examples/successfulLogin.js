@@ -15,26 +15,16 @@ cy.get('[data-testid=loginButton] > .r-1awozwy').click()
 
 cy.wait(2000)
 //Input Twitter username16y2uox
-cy.contains('Phone').type('otueffiwatt@icloud.com')
+cy.contains('Phone').type('Michael_eli_')
 
 //Input Twitter password
-cy.contains('Password').type('Kokodaddy#15')
+cy.contains('Password').type('123456')
 
 //Click login button
 cy.contains('Login').click()
 
 //Assertion for successful login
-
-if(cy.get('.r-18kxxzh > .css-4rbku5 > .r-1twgtwe').should('be.visible'))
-{
-  cy.log('Test Passed')
-} 
-
-
-else {
-  cy.log('Test Failed')
-}
-
+cy.get('.r-18kxxzh > .css-4rbku5 > .r-1twgtwe').should('be.visible')
 })
 
 
