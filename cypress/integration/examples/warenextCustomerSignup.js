@@ -52,7 +52,7 @@ cy.get('[name="source"]').select('Other')
 // clicks sign up button
 cy.get('.sc-emmjRN').click()
 
-//Assertions for Warenext Login Acceptance Criteria:
+//Assertions for Warenext SignUp Acceptance Criteria:
 if(
     cy.get('.sc-daURTG').should('be.visible')
 )
