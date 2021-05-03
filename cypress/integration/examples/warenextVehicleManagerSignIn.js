@@ -4,7 +4,7 @@ describe(' Regression TestSuite', function()
 it('Validate that Vehicle Manager can login to Warenext successfully', function() {
 //Opens the Warenext url
 cy.visit('https://app-dev.warenext.ng/')
-//Inputs Warenext username
+//Inputs Warenxt username
 cy.get('[name="username"]').type('vehiclemanager@warenext.com')
 //Inputs Warenext password
 cy.get('[style="position: relative; width: 100%;"] > .input').type('test1234')
