@@ -23,15 +23,7 @@ if(
   //Shipments 
   cy.get(':nth-child(3) > .sc-hMqMXs > .sc-kEYyzF > a > .sc-iAyFgw').should('be.visible'),
   //Saved Orders 
-  cy.get(':nth-child(4) > .sc-hMqMXs > .sc-kEYyzF > a > .sc-iAyFgw').should('be.visible'),
-  //Settings
-  cy.get(':nth-child(5) > .sc-hMqMXs > .sc-kEYyzF > a > .sc-iAyFgw').should('be.visible'),
-  //Help and Support 
-  cy.get(':nth-child(6) > .sc-hMqMXs > .sc-kEYyzF > a > .sc-iAyFgw').should('be.visible'),
-  //Image Logo
-  cy.get('.sc-bxivhb').should('be.visible'),
-  //Notification icon
-  cy.get('[fill-rule="nonzero"] > :nth-child(1) > g > path').should('be.visible')
+  cy.get(':nth-child(4) > .sc-hMqMXs > .sc-kEYyzF > a > .sc-iAyFgw').should('be.visible')
 )
 {
   cy.log('Test passed')
